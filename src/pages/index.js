@@ -5,6 +5,7 @@ import First from '../components/First'
 
 import { homeObj1,homeObj2,homeObj3 } from '../components/First/Data'
 import Services from '../components/Services'
+import Footer from '../components/Footer'
 
 const Home = () => {
     const [isOpen,setIsOpen]=useState(false)
@@ -20,6 +21,7 @@ const Home = () => {
         <First {...homeObj2} />
         <Services />
         <First {...homeObj3} />
+        <Footer />
     </>
   )
 }
